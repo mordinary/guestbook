@@ -30,7 +30,8 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 /**
  * The core class to bootstrap our application. It triggers Spring Boot's auto-configuration, component scanning and
- * configuration properties scanning using the {@link SpringBootApplication} convenience annotation. At the same time,
+ * configuration properties
+ * scanning using the {@link SpringBootApplication} convenience annotation. At the same time,
  * this class acts as configuration class to configure additional components (see {@link #init(GuestbookRepository)})
  * that the Spring container will take into account when bootstrapping.
  *
@@ -67,6 +68,8 @@ public class Application {
 					new GuestbookEntry("Gump1337",
 							"Mama always said life was like a box of chocolates. You never know what you're gonna get.")) //
 					.forEach(guestbook::save);
+			        new GuestbookEntry("mordinary","ohyeahhh");
+
 		};
 	}
 
