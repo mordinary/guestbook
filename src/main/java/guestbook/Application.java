@@ -67,7 +67,7 @@ public class Application {
 							"It's time to kick ass and chew bubble gum. And I'm all out of gum."),//
 					new GuestbookEntry("Gump1337",
 							"Mama always said life was like a box of chocolates. You never know what you're gonna get."),
-					new GuestbookEntry("mordinary","ohyeahhh")).forEach(guestbook::save);
+					new GuestbookEntry("mordinary","ohyeahhhh")).forEach(guestbook::save);
 
 		};
 	}
