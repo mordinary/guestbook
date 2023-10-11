@@ -64,11 +64,10 @@ public class Application {
 					new GuestbookEntry("H4xx0r", "first!!!"), //
 					new GuestbookEntry("Arni", "Hasta la vista, baby"), //
 					new GuestbookEntry("Duke Nukem",
-							"It's time to kick ass and chew bubble gum. And I'm all out of gum."), //
+							"It's time to kick ass and chew bubble gum. And I'm all out of gum."),//
 					new GuestbookEntry("Gump1337",
-							"Mama always said life was like a box of chocolates. You never know what you're gonna get.")) //
-					.forEach(guestbook::save);
-			        new GuestbookEntry("mordinary","ohyeahhh");
+							"Mama always said life was like a box of chocolates. You never know what you're gonna get."),
+					new GuestbookEntry("mordinary","ohyeahhh")).forEach(guestbook::save);
 
 		};
 	}
